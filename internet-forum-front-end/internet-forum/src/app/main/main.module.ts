@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { MainRoutingModule } from './main-routing.module';
 
+import { MainComponent } from './main.component';
+
 
 @NgModule({
   imports: [
@@ -10,6 +12,7 @@ import { MainRoutingModule } from './main-routing.module';
     MainRoutingModule,
   ],
   declarations: [
+    MainComponent,
   ],
 })
 export class MainModule { }
