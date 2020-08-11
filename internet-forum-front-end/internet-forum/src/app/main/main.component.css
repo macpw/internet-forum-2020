@@ -1,4 +1,11 @@
 :host {
   box-sizing: border-box;
   display: block;
+  /* It is in flex container. */
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  /* Flex Container */
+  display: flex;
+  flex-direction: column;
 }
